@@ -6,4 +6,3 @@ if (num1==num2){
 }else{
     console.log("pas egaux");
 }
-
