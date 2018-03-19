@@ -1,9 +1,9 @@
-Date.prototype.addDays = function() {
-    var dat = new Date(this.valueOf());
-    dat.setDate(dat.getDate() + days);
-    return days;
+ function addDays(day) {
+    var result = new Date(day);
+      result.setDate(result.getDate() + 7);
+    return result;
   }
   
-  var dat = new Date();
+  var day = new Date();
   
-  alert(dat.addDays())
+  alert(addDays(day));
